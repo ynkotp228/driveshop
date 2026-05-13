@@ -128,8 +128,6 @@ h2 {
   position: sticky;
   top: 0;
   background-color: var(--secondary-color);
-   
-  
   padding: 0;
   width: 100%;
    
@@ -147,10 +145,15 @@ h2 {
 
   text-align: center;
 }
+ 
 .nav__link {
   color: var(--btn-color);
   font-size: 1.25rem;
   font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+  display: flex;
 }
 .nav__link:hover {
   color: var(--btn-bg-hover--main);
