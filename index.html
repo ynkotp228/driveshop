@@ -39,7 +39,14 @@
           <div class="subtitle goods__title"><h2>Наші товари</h2></div>
           <div class="goods__grid">
             <div class="goods__cards">
-              <div><img class="cards__img" src="/photos/helmet.png" /></div>
+              <div>
+                <img
+                  class="cards__img"
+                  src="/photos/helmet.png"
+                  alt="helmet"
+                  loading="lazy"
+                />
+              </div>
               <div class="cards__body">
                 <h3 class="cards__title">Шолом Icon Ursa Major</h3>
                 <ul class="cards__desc">
@@ -60,7 +67,14 @@
               </div>
             </div>
             <div class="goods__cards">
-              <div><img class="cards__img" src="/photos/gloves.png" /></div>
+              <div>
+                <img
+                  class="cards__img"
+                  src="/photos/gloves.png"
+                  alt="gloves"
+                  loading="lazy"
+                />
+              </div>
               <div class="cards__body">
                 <h3 class="cards__title">Моторукавички THOR Assist React</h3>
                 <ul class="cards__desc">
@@ -81,7 +95,14 @@
               </div>
             </div>
             <div class="goods__cards">
-              <div><img class="cards__img" src="/photos/jacket.png" /></div>
+              <div>
+                <img
+                  class="cards__img"
+                  src="/photos/jacket.png"
+                  alt="jacket"
+                  loading="lazy"
+                />
+              </div>
               <div class="cards__body">
                 <h3 class="cards__title">Куртка Alpinestars C-1 Air</h3>
                 <ul class="cards__desc">
@@ -111,7 +132,14 @@
               </div>
             </div>
             <div class="goods__cards">
-              <div><img class="cards__img" src="photos/bag.png" /></div>
+              <div>
+                <img
+                  class="cards__img"
+                  src="photos/bag.png"
+                  alt="bag"
+                  loading="lazy"
+                />
+              </div>
               <div class="cards__body">
                 <h3 class="cards__title">Рюкзак AlscePack</h3>
                 <ul class="cards__desc">
@@ -135,7 +163,14 @@
               </div>
             </div>
             <div class="goods__cards">
-              <div><img class="cards__img" src="photos/boots.png" /></div>
+              <div>
+                <img
+                  class="cards__img"
+                  src="photos/boots.png"
+                  alt="boots"
+                  loading="lazy"
+                />
+              </div>
               <div class="cards__body">
                 <h3 class="cards__title">Боти KunkkaBoost</h3>
                 <ul class="cards__desc">
@@ -159,7 +194,14 @@
               </div>
             </div>
             <div class="goods__cards">
-              <div><img class="cards__img" src="photos/discLocker.png" /></div>
+              <div>
+                <img
+                  class="cards__img"
+                  src="photos/discLocker.png"
+                  alt="discLocker"
+                  loading="lazy"
+                />
+              </div>
               <div class="cards__body">
                 <h3 class="cards__title">Диск-локер MotsLock now52</h3>
                 <ul class="cards__desc">
@@ -230,9 +272,24 @@
               <h3>Доступні сервіси доставки:</h3>
             </div>
             <div class="work__imgs">
-              <img class="work__img" src="photos/NP.jpg" />
-              <img class="work__img" src="photos/UP.jpg" />
-              <img class="work__img" src="photos/MP.png" />
+              <img
+                class="work__img"
+                src="photos/NP.jpg"
+                alt="NewPost"
+                loading="lazy"
+              />
+              <img
+                class="work__img"
+                src="photos/UP.jpg"
+                alt="UkrPost"
+                loading="lazy"
+              />
+              <img
+                class="work__img"
+                src="photos/MP.png"
+                alt="MeestPost"
+                loading="lazy"
+              />
             </div>
           </div>
         </div>
@@ -255,7 +312,12 @@
                 </div>
               </div>
               <div class="about-us__imgs">
-                <img class="about-us__img" src="photos/about3.png" />
+                <img
+                  class="about-us__img"
+                  src="photos/about3.png"
+                  alt="quality/logo"
+                  loading="lazy"
+                />
               </div>
               <div class="about-us__item">
                 <div class="about-us__subtitle">
@@ -271,7 +333,12 @@
                 </div>
               </div>
               <div class="about-us__imgs">
-                <img class="about-us__img" src="photos/about1.png" />
+                <img
+                  class="about-us__img"
+                  src="photos/about1.png"
+                  alt="Shop"
+                  loading="lazy"
+                />
               </div>
               <div class="about-us__item">
                 <div class="about-us__subtitle">
@@ -287,7 +354,12 @@
                 </div>
               </div>
               <div class="about-us__imgs">
-                <img class="about-us__img" src="photos/about2.png" />
+                <img
+                  class="about-us__img"
+                  src="photos/about2.png"
+                  alt="warehouse"
+                  loading="lazy"
+                />
               </div>
             </div>
           </div>
@@ -403,7 +475,6 @@
       burger.addEventListener("click", () => {
         nav.classList.toggle("is-open");
 
-         
         const isOpen = nav.classList.contains("is-open");
         burger.setAttribute("aria-expanded", isOpen);
       });
