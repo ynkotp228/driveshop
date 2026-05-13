@@ -20,22 +20,19 @@
     </header>
 
     <main>
-      <section class="nav">
-        <div class="nav__list">
-          <p class="nav__item"><a class="nav__link" href="#goods">Товари</a></p>
-          <p class="nav__item">
-            <a class="nav__link" href="#work">Як ми працюємо</a>
-          </p>
-          <p class="nav__item">
-            <a class="nav__link" href="#about-us">Про нас</a>
-          </p>
-          <p class="nav__item">
-            <a class="nav__link" href="#contacts">Контакти</a>
-          </p>
-          <p class="nav__item">
-            <a class="nav__link" href="#policy">Політика конфіденційності</a>
-          </p>
-        </div>
+      <section class="navigation">
+        <button class="burger" aria-label="Меню" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="nav">
+          <a href="#goods">Наші товари</a>
+          <a href="#work">Як ми працюємо</a>
+          <a href="#about-us">Про нас</a>
+          <a href="#contacts">Контакти</a>
+        </nav>
       </section>
       <section class="goods" id="goods">
         <div class="container">
@@ -399,6 +396,24 @@
       let takePromo = document.getElementById("header__button");
       takePromo.addEventListener("click", function () {
         alert("Ви отримали промокод: 'CLDC2026', на знижку 20%! ");
+      });
+      const burger = document.querySelector(".burger");
+      const nav = document.querySelector(".nav");
+
+      burger.addEventListener("click", () => {
+        nav.classList.toggle("is-open");
+
+         
+        const isOpen = nav.classList.contains("is-open");
+        burger.setAttribute("aria-expanded", isOpen);
+      });
+      const navLinks = document.querySelectorAll(".nav a");
+
+      navLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          nav.classList.remove("is-open");
+          burger.setAttribute("aria-expanded", "false");
+        });
       });
     </script>
   </body>
