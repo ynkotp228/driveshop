@@ -4,17 +4,17 @@
   --bg-color: #909090;
   --primary-color: #8c8989;
   --secondary-color: #08538c;
-  --title-background-color: #7761b2;
+  --title-background-color: #8673BA;
   --subtitle-background-color: #cfd4d2;
   --border-shadow: #000;
-  --about-us-color: #6c18b1;
+  --about-us-color: #387db2b7;
   --contacts-bg-color: #444;
   --contacts-text-color: #fff;
-  --links-color: #c83939;
+  --links-color: #f99efd;
   --footer-bg-color: #a49c9c;
 
   /* goods */
-  --goods-item-color: #3576a8;
+  --goods-item-color: #387db2b7;
   --hover-color: #504e9a;
 
   /* buttons */
@@ -116,7 +116,7 @@ h2 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url("photos/maillogo.jpg");
+  background-image: url("photos/maillogo.webp");
   min-height: 300px;
   background-size: cover;
   background-position: center;
@@ -253,7 +253,7 @@ h2 {
   background-color: var(--btn-bg);
   margin-top: auto;
   align-self: center;
-  width: 170px;
+  width: 180px;
   height: 50px;
   border-radius: 5px;
   font-size: 1rem;

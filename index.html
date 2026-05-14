@@ -21,13 +21,13 @@
 
     <main>
       <div class="navigation">
-        <button class="burger" aria-label="Меню" aria-expanded="false">
+        <button class="burger" aria-controls="nav" aria-label="Меню" aria-expanded="false">
           <span></span>
           <span></span>
           <span></span>
         </button>
 
-        <nav class="nav">
+        <nav class="nav" id="nav">
           <a href="#goods">Наші товари</a>
           <a href="#work">Як ми працюємо</a>
           <a href="#about-us">Про нас</a>
@@ -58,11 +58,7 @@
                 </ul>
 
                 <div class="cards__btn">
-                  <input
-                    class="btn buy__btn"
-                    type="button"
-                    value="Купити за 6999 ₴"
-                  />
+                  <button class="btn buy__btn">Купити за 6999 ₴</button>
                 </div>
               </div>
             </div>
@@ -86,11 +82,7 @@
                 </ul>
 
                 <div class="cards__btn">
-                  <input
-                    class="btn buy__btn"
-                    type="button"
-                    value="Купити за 1299 ₴"
-                  />
+                  <button class="btn buy__btn">Купити за 1999 ₴</button>
                 </div>
               </div>
             </div>
@@ -123,11 +115,7 @@
                 </ul>
 
                 <div class="cards__btn">
-                  <input
-                    class="btn buy__btn"
-                    type="button"
-                    value="Купити за 3699 ₴"
-                  />
+                  <button class="btn buy__btn">Купити за 3699 ₴</button>
                 </div>
               </div>
             </div>
@@ -154,11 +142,7 @@
                 </ul>
 
                 <div class="cards__btn">
-                  <input
-                    class="btn buy__btn"
-                    type="button"
-                    value="Купити за 3999 ₴"
-                  />
+                  <button class="btn buy__btn">Купити за 3999 ₴</button>
                 </div>
               </div>
             </div>
@@ -185,11 +169,7 @@
                 </ul>
 
                 <div class="cards__btn">
-                  <input
-                    class="btn buy__btn"
-                    type="button"
-                    value="Купити за 4499 ₴"
-                  />
+                  <button class="btn buy__btn">Купити за 4999 ₴</button>
                 </div>
               </div>
             </div>
@@ -216,11 +196,7 @@
                 </ul>
 
                 <div class="cards__btn">
-                  <input
-                    class="btn buy__btn"
-                    type="button"
-                    value="Купити за 899 ₴"
-                  />
+                  <button class="btn buy__btn">Купити за 899 ₴</button>
                 </div>
               </div>
             </div>
@@ -432,7 +408,10 @@
             </div>
             <div class="contacts__map">
               <a href="https://maps.app.goo.gl/weR1WxEvD5dZchLz6">
-                <img class="contacts__img" src="photos/map.webp" alt="Місцезнаходження магазину на карті Львову"
+                <img
+                  class="contacts__img"
+                  src="photos/map.webp"
+                  alt="Місцезнаходження магазину на карті Львову"
               /></a>
             </div>
           </div>
