@@ -80,7 +80,7 @@ section {
   height: auto;
   padding: 10px 20px;
   border-radius: 5px;
-  color: var(--btn);
+  color: var(--btn-color);
   background-color: var(--btn-bg);
 }
 
@@ -280,6 +280,7 @@ h2 {
   margin: 0;
   text-align: center;
   padding: 10px 0;
+  font-size: 2rem;
   background-color: var(--title-background-color);
 }
 
@@ -353,6 +354,7 @@ h2 {
   text-align: center;
   padding-top: 5px;
   background-color: var(--title-background-color);
+  font-size: 2rem;
 }
 
 .about-us__subtitle {
@@ -424,6 +426,16 @@ h2 {
   text-align: center;
   padding-top: 5px;
   background-color: var(--title-background-color);
+}
+.subtitle.contacts__lead {
+  background-color: var(--title-background-color);
+  margin: 0;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+  width: 100%;
+   
+  font-size: 1.5rem;
 }
 
 .contacts__body {
