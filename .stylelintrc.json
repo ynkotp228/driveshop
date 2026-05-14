@@ -1,0 +1,11 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "selector-class-pattern": [
+      "^([a-z]+((-|__)[a-z0-9]+)*)$",
+      {
+        "message": "Expected class selector to use kebab-case or BEM notation (single dash for modifiers, double underscore for elements)"
+      }
+    ]
+  }
+}
