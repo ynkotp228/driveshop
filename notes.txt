@@ -1,1 +1,10 @@
- 
+ <nav class="nav" id="nav">
+          <a href="#goods">Наші товари</a>
+          <a href="#work">Як ми працюємо</a>
+          <a href="#about-us">Про нас</a>
+          <a href="#contacts">Контакти</a>
+        </nav>
+        <button class="card-toggle" aria-controls="card-drawer" aria-lable="Корзина" aria-expanded="false">
+          <span class="cart-icon">🛒</span>
+          <span class="cart-text">Корзина</span>
+        </button>

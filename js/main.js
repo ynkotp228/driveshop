@@ -1,5 +1,5 @@
 document.querySelectorAll('.buy__btn').forEach(btn => {
-    btn.addEventListener('click', () => alert('Товар додано до кошика!'))
+    btn.addEventListener('click', () => alert('Це демо-сайт, кошик працює тільки в межах сесії'));
 })
 
 let takePromo = document.getElementById("header__button");
@@ -29,3 +29,11 @@ document.addEventListener('click', (e) => {
       burger.setAttribute('aria-expanded', 'false');
     }
   });
+  const cartToggle = document.querySelector('.cart-toggle');
+  const cartDrawer = document.querySelector('.cart-drawer');
+  
+  cartToggle.addEventListener('click', () => {
+    cartDrawer.classList.toggle('is-open');
+    cartToggle.setAttribute('aria-expanded', cartDrawer.classList.contains('is-open'));
+  });
+ 
