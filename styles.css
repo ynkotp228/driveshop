@@ -146,7 +146,7 @@ h2 {
   background-color: var(--secondary-color);
   padding: 5px;
   width: 100%;
-
+  z-index: 2;
   text-decoration: none;
 }
 
@@ -194,7 +194,7 @@ h2 {
   font-size: 1.1rem;
   right: 20px;
   bottom: 20px;
-  width: 120px;
+  width: 130px;
   height: 50px;
   background-color: var(--btn-bg);
   display: flex;
@@ -217,6 +217,14 @@ h2 {
   flex-direction: column;
   padding: 20px;
   text-align: center;
+}
+.cart-drawer__commodity-remove {
+  cursor: pointer;
+  margin: 10px;
+}
+.empty-cart {
+  text-align: center;
+  margin: 16px 0;
 }
 /*    goods    */
 

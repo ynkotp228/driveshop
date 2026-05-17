@@ -46,22 +46,18 @@
         <button
           class="cart-toggle"
           aria-controls="cart-drawer"
-          aria-lable="Корзина"
+          aria-label="Корзина"
           aria-expanded="false"
         >
           <span class="cart-icon">🛒</span>
           <span class="cart-text">Корзина</span>
+          <span class="cart-badge"></span>
         </button>
         <div class="cart-drawer" id="cart-drawer">
           <h2 class="cart-drawer__header">Ваша корзина</h2>
-          <div class="cart-drawer__commodity">
-            <div class="commodity__item"> </div>
-            <div class="commodity__item"> </div>
-          </div>
-          <div class="cart-drawer__total">
-            <span class="total__text">Всього:</span>
-            <span class="total__price">0 ₴</span>
-          </div>
+          <div class="cart-drawer__commodity"></div>
+          <div class="empty-cart">Корзина пуста 🛒</div>
+          <div class="cart-drawer__total"></div>
         </div>
       </div>
       <section class="goods" id="goods">
@@ -88,7 +84,14 @@
                 </ul>
 
                 <div class="cards__btn">
-                  <button class="btn buy__btn">Купити за 6999 ₴</button>
+                  <button
+                    data-id="1"
+                    data-title="Шолом Icon Ursa Major"
+                    data-price="6999"
+                    class="btn buy__btn"
+                  >
+                    Ціна: 6999 ₴ Додати в кошик
+                  </button>
                 </div>
               </div>
             </div>
@@ -112,7 +115,14 @@
                 </ul>
 
                 <div class="cards__btn">
-                  <button class="btn buy__btn">Купити за 1999 ₴</button>
+                  <button
+                    data-id="2"
+                    data-title="Моторукавички THOR Assist React"
+                    data-price="1999"
+                    class="btn buy__btn"
+                  >
+                    Ціна: 1999 ₴ Додати в кошик
+                  </button>
                 </div>
               </div>
             </div>
@@ -145,7 +155,14 @@
                 </ul>
 
                 <div class="cards__btn">
-                  <button class="btn buy__btn">Купити за 3699 ₴</button>
+                  <button
+                    data-id="3"
+                    data-title="Куртка Alpinestars C-1 Air"
+                    data-price="3699"
+                    class="btn buy__btn"
+                  >
+                    Ціна: 3699 ₴ Додати в кошик
+                  </button>
                 </div>
               </div>
             </div>
@@ -172,7 +189,14 @@
                 </ul>
 
                 <div class="cards__btn">
-                  <button class="btn buy__btn">Купити за 3999 ₴</button>
+                  <button
+                    class="btn buy__btn"
+                    data-id="4"
+                    data-title="Рюкзак AlicePack"
+                    data-price="3999"
+                  >
+                    Ціна: 3999 ₴ Додати в кошик
+                  </button>
                 </div>
               </div>
             </div>
@@ -199,7 +223,14 @@
                 </ul>
 
                 <div class="cards__btn">
-                  <button class="btn buy__btn">Купити за 4999 ₴</button>
+                  <button
+                    class="btn buy__btn"
+                    data-id="5"
+                    data-title="Боти AstroBoots Classic"
+                    data-price="4999"
+                  >
+                    Ціна: 4999 ₴ Додати в кошик
+                  </button>
                 </div>
               </div>
             </div>
@@ -226,7 +257,14 @@
                 </ul>
 
                 <div class="cards__btn">
-                  <button class="btn buy__btn">Купити за 899 ₴</button>
+                  <button
+                    class="btn buy__btn"
+                    data-id="6"
+                    data-title="Диск-локер MotsLock now52"
+                    data-price="899"
+                  >
+                    Ціна: 899 ₴ Додати в кошик
+                  </button>
                 </div>
               </div>
             </div>
